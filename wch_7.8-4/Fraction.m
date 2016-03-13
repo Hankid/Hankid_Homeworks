@@ -33,7 +33,8 @@
     _denominator /= u;
 }
 
--(void) printreslut{
+-(void) printreslut
+{
     Fraction *f = [[Fraction alloc] init];
     f.numerator = _numerator;
     f.denominator = _denominator;

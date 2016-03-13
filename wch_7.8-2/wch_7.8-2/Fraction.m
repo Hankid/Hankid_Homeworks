@@ -76,7 +76,8 @@
     denominator /= u;
 }
 
--(void) printreslut: (Boolean) b{
+-(void) printreslut: (Boolean) b
+{
     Fraction *f = [[Fraction alloc] init];
     f.numerator = numerator;
     f.denominator = denominator;
